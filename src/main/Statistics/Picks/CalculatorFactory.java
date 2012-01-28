@@ -13,7 +13,7 @@ import main.Statistics.Picks.Calculators.ValueCalculator.*;
  * Date: 21.03.11
  * Time: 3:32
  */
-public class CalculatorFactory {
+public abstract class CalculatorFactory {
     public static IPicksCalculator getSampling(int param) {
         return new SamplingCalculator(param);
     }

@@ -18,9 +18,7 @@ public class ValueChar implements IBaseObject {
 
     @Override
     public String toString() {
-        String result = "";
-        result += value;
-        return result;
+        return Character.toString(value);
     }
 
     public IBaseObject clone() {
@@ -28,22 +26,16 @@ public class ValueChar implements IBaseObject {
     }
 
     public boolean equals(Object obj) {
+        if (null == obj)
+            return false;
         if (this == obj)
             return true;
         if (this.getClass() != obj.getClass())
             return false;
-        return EqualsAsChar((ValueChar)obj);
-    }
-
-    private boolean EqualsAsChar(ValueChar c) {
-        if (null == c)
-        {
-            return false;
-        }
-        return c.value == value;
+        return ((ValueChar)obj).value==value;
     }
 
     public IBin GetBin() {
-        return null;  //TODO: "????????? ?????"
+        return null;  //TODO: "Fill method"
     }
 }
