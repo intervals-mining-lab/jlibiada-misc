@@ -1,9 +1,8 @@
 package test.DiffBuildingAnalysis.Rules;
 
 import junit.framework.TestCase;
-import libiada.DiffBuildingAnalysis.Iterators.CutRuleIterator;
-import libiada.DiffBuildingAnalysis.Rules.FromFixStartCutRule;
-import org.junit.Test;
+import main.DiffBuildingAnalysis.Iterators.CutRuleIterator;
+import main.DiffBuildingAnalysis.Rules.FromFixStartCutRule;
 
 /**
  * Created by IntelliJ IDEA.
@@ -13,7 +12,6 @@ import org.junit.Test;
  * To change this template use File | Settings | File Templates.     
  */
 public class testFromFixStartCutRule extends TestCase{
-    @Test
     public void testCutRule() throws Exception {
         FromFixStartCutRule rule = new FromFixStartCutRule(12, 3);
         CutRuleIterator iterator = rule.getIterator(); //объект, который бегает по массиву
