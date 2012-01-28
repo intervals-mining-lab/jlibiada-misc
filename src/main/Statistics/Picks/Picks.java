@@ -42,6 +42,7 @@ public class Picks implements Iterator<Double> {
     }
 
     public void sort() {
+        for (int j = 0; j < propabilities.size() - 1; j++)
         for (int i = 0; i < propabilities.size() - 1; i++) {
             if (propabilities.get(i) > propabilities.get(i + 1)) {
                 Double tempValue = propabilities.get(i + 1);
