@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project name="jlibiada-core-fast" default="run">
+<project name="jlibiada-misc" default="run">
     <property name="build" value="build"/>
     <property name="build.main" value="${build}/main"/>
     <property name="build.test" value="${build}/test"/>
@@ -32,7 +32,7 @@
                     config="${checkstyle.policy}">
             <formatter type="plain"/>
             <formatter type="xml" toFile="${checkstyle.report.xml}"/>
-            <fileset dir="${src}" includes="**/*.java"/>
+            <fileset dir="${src.main}" includes="**/*.java"/>
         </checkstyle>
     </target>
 
@@ -91,8 +91,8 @@
     </target>
 
     <target name="cover-report" depends="cover-run">
-        <cobertura-report datafile="cobertura.ser" format="xml" srcdir="${src.main}" destdir="${reports}"/>
-        <cobertura-report datafile="cobertura.ser" format="html" srcdir="${src.main}" destdir="${reports}/coverage"/>
+        <cobertura-report datafile="cobertura.ser" format="xml" srcdir="${src}" destdir="${reports}"/>
+        <cobertura-report datafile="cobertura.ser" format="html" srcdir="${src}" destdir="${reports}/coverage"/>
     </target>
 
 

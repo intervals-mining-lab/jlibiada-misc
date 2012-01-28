@@ -1,4 +1,4 @@
-package libiada.Statistics.Generators;
+package main.Statistics.Generators;
 
 /**
  * Created by IntelliJ IDEA.

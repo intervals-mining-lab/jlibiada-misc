@@ -1,7 +1,7 @@
-package libiada.Statistics.Picks.Calculators.PatternRecognition;
+package main.Statistics.Picks.Calculators.PatternRecognition;
 
-import libiada.Statistics.Picks.Calculators.ValueCalculator.IValueCalculator;
-import libiada.Statistics.Picks.Picks;
+import main.Statistics.Picks.Calculators.ValueCalculator.IValueCalculator;
+import main.Statistics.Picks.Picks;
 
 /**
  * Created by IntelliJ IDEA.

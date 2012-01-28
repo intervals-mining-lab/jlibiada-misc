@@ -1,7 +1,7 @@
-package libiada.Statistics.Picks;
+package main.Statistics.Picks;
 
-import libiada.Statistics.Picks.Calculators.PicksCalculator.IPicksCalculator;
-import libiada.Statistics.Picks.Calculators.ValueCalculator.IValueCalculator;
+import main.Statistics.Picks.Calculators.PicksCalculator.IPicksCalculator;
+import main.Statistics.Picks.Calculators.ValueCalculator.IValueCalculator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

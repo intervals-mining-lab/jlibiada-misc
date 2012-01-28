@@ -1,6 +1,6 @@
-package libiada.Statistics.Picks.Calculators.ValueCalculator;
+package main.Statistics.Picks.Calculators.ValueCalculator;
 
-import libiada.Statistics.Picks.Picks;
+import main.Statistics.Picks.Picks;
 
 /**
  * Created by IntelliJ IDEA.
@@ -8,7 +8,7 @@ import libiada.Statistics.Picks.Picks;
  * Date: 21.03.11
  * Time: 4:11
  */
-public class MinCalculator implements IValueCalculator{
+public class MinCalculator implements IValueCalculator {
     @Override
     public double calculate(Picks picks) {
         double minValue = Double.MAX_VALUE;

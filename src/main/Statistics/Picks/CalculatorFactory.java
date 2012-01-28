@@ -1,11 +1,11 @@
-package libiada.Statistics.Picks;
+package main.Statistics.Picks;
 
-import libiada.Statistics.Picks.Calculators.PatternRecognition.BetweenPatternDistance;
-import libiada.Statistics.Picks.Calculators.PatternRecognition.ImageCompactDistance;
-import libiada.Statistics.Picks.Calculators.PatternRecognition.InterPatternDistance;
-import libiada.Statistics.Picks.Calculators.PicksCalculator.IPicksCalculator;
-import libiada.Statistics.Picks.Calculators.PicksCalculator.SamplingCalculator;
-import libiada.Statistics.Picks.Calculators.ValueCalculator.*;
+import main.Statistics.Picks.Calculators.PatternRecognition.BetweenPatternDistance;
+import main.Statistics.Picks.Calculators.PatternRecognition.ImageCompactDistance;
+import main.Statistics.Picks.Calculators.PatternRecognition.InterPatternDistance;
+import main.Statistics.Picks.Calculators.PicksCalculator.IPicksCalculator;
+import main.Statistics.Picks.Calculators.PicksCalculator.SamplingCalculator;
+import main.Statistics.Picks.Calculators.ValueCalculator.*;
 
 /**
  * Created by IntelliJ IDEA.

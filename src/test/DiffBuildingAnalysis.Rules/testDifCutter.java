@@ -14,13 +14,13 @@ import java.util.ArrayList;
 * To change this template use File | Settings | File Templates.
 */
 public class testDifCutter extends TestCase{
-    public void testDifCutter() {
+    public void testCutRule() {
         String s = "reegwvwvw";
-        DifCutter dif = new DifCutter();   //рубит строчку
-        FromFixStartCutRule rule = new FromFixStartCutRule(s.length(), 3);  //првило разбиения
-        ArrayList<String> cuts =  dif.cut(s, rule);  //метод разрубающий строчку
+        DifCutter dif = new DifCutter();
+        FromFixStartCutRule rule = new FromFixStartCutRule(s.length(), 3);
+        ArrayList<String> cuts =  dif.cut(s, rule);
 
-        assertEquals(cuts.get(0), "ree");        //проверяем правильность результата
+        assertEquals(cuts.get(0), "ree");
         assertEquals(cuts.get(1), "reegwv");
         assertEquals(cuts.get(2), "reegwvwvw");
 

@@ -41,10 +41,6 @@
                debug="true"/>
     </target>
 
-    <target name="archive" depends="compile">
-        <jar basedir="${build.main}" destfile="${dist}/jlibiada-core-fast.jar"/>
-    </target>
-
     <target name="clean">
         <delete dir="${dist}"/>
         <delete dir="${build}"/>
@@ -66,12 +62,12 @@
             <formatter type="xml"/>
             <!--<test todir="${reports.test.xml}" name="test.FastChainAlgoritms.FastChain.Calculators.testMuCalculator"/>-->
             <batchtest todir="${reports.test.xml}">
-                <fileset dir="${build.test}" includes="**/*.class"/>
+                <fileset dir="${build.test}" includes="**/test*.class"/>
             </batchtest>
         </junit>
     </target>
     
     <target name="jar-make" depends="test-basic">
-	<jar destfile="dist/jlibiada-misc.jar" basedir="${build.main}"/>
+	    <jar destfile="${dist}/jlibiada-misc.jar" basedir="${build.main}"/>
     </target>
 </project>

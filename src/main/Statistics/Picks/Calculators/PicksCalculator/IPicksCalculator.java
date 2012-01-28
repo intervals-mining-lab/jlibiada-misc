@@ -1,6 +1,6 @@
-package libiada.Statistics.Picks.Calculators.PicksCalculator;
+package main.Statistics.Picks.Calculators.PicksCalculator;
 
-import libiada.Statistics.Picks.Picks;
+import main.Statistics.Picks.Picks;
 
 /**
  * Created by IntelliJ IDEA.
