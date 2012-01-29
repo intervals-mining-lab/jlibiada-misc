@@ -1,0 +1,16 @@
+<ivy-module version="1.0">
+    <info organisation="ivt" module="core-misc"/>
+    <configurations defaultconfmapping="default">
+        <conf name="compile" visibility="private"/>
+        <conf name="test" extends="compile" visibility="private"/>
+        <conf name="master" />
+        <conf name="runtime" extends="compile"/>
+        <conf name="default" extends="master,runtime"/>
+    </configurations>
+    <publications>
+        <artifact name="jlibiada-misc" conf="master" type="jar" />
+    </publications>
+    <dependencies>
+        <dependency org="junit" name="junit" rev="3.8.2" conf="test->default"/>
+    </dependencies>
+</ivy-module>
