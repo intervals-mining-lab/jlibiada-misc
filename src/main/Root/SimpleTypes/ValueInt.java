@@ -1,7 +1,6 @@
 package main.Root.SimpleTypes;
 
-import main.Root.IBaseObject;
-import main.Root.IBin;
+import main.Root.BaseObject;
 
 /**
  * Created by IntelliJ IDEA.
@@ -9,7 +8,7 @@ import main.Root.IBin;
  * Date: 30.11.2010
  * Time: 10:11:33
  */
-public class ValueInt implements IBaseObject {
+public class ValueInt extends BaseObject {
     private long value;
 
     public ValueInt(long i) {
@@ -21,7 +20,7 @@ public class ValueInt implements IBaseObject {
         return ((Long)value).toString();
     }
 
-    public IBaseObject clone() {
+    public BaseObject clone() {
         return new ValueInt(value);
     }
 
@@ -31,11 +30,19 @@ public class ValueInt implements IBaseObject {
         return value == ((ValueInt)obj).getValue();
     }
 
-    public IBin GetBin() {
-        return null;  //TODO: "????????? ?????"
-    }
-
     public long getValue() {
         return value;
+    }
+
+    @Override
+    public int compareTo(BaseObject obj) {
+        if (obj.getClass() != getClass())
+            return 2;
+        else if (((ValueInt)obj).value == value)
+            return 0;
+        else if (((ValueInt)obj).value < value)
+            return 1;
+        else
+            return -1;
     }
 }

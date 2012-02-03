@@ -1,7 +1,6 @@
 package main.Root.SimpleTypes;
 
-import main.Root.IBin;
-import main.Root.IBaseObject;
+import main.Root.BaseObject;
 
 /**
  * Created by IntelliJ IDEA.
@@ -9,7 +8,7 @@ import main.Root.IBaseObject;
  * Date: 11.12.2010
  * Time: 2:04:45
  */
-public class ValueChar implements IBaseObject {
+public class ValueChar extends BaseObject {
     public char value = '_';
 
     public ValueChar(char sym) {
@@ -21,7 +20,19 @@ public class ValueChar implements IBaseObject {
         return Character.toString(value);
     }
 
-    public IBaseObject clone() {
+    @Override
+    public int compareTo(BaseObject object) {
+        if (getClass() != object.getClass())
+            return 2;
+        else if (((ValueChar)object).value == value)
+            return 0;
+        else if (((ValueChar)object).value < value)
+            return 1;
+        else
+            return -1;
+    }
+
+    public BaseObject clone() {
         return new ValueChar(value);
     }
 
@@ -33,9 +44,5 @@ public class ValueChar implements IBaseObject {
         if (this.getClass() != obj.getClass())
             return false;
         return ((ValueChar)obj).value==value;
-    }
-
-    public IBin GetBin() {
-        return null;  //TODO: "Fill method"
     }
 }

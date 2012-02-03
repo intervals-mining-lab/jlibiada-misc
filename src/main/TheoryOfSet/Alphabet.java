@@ -1,6 +1,6 @@
 package main.TheoryOfSet;
 
-import main.Root.IBaseObject;
+import main.Root.BaseObject;
 
 import java.util.ArrayList;
 
@@ -11,13 +11,13 @@ import java.util.ArrayList;
  * Time: 1:49:09
  */
 public class Alphabet {
-    protected ArrayList<IBaseObject> vault = new ArrayList<IBaseObject>();
+    protected ArrayList<BaseObject> vault = new ArrayList<BaseObject>();
 
     public int getPower() {
         return vault.size();
     }
 
-    public int add(IBaseObject value) throws Exception {
+    public int add(BaseObject value) throws Exception {
         if (vault.contains((value)))
         {
             throw new Exception("????????? ?????????? ??????? ? ???????");
@@ -26,17 +26,17 @@ public class Alphabet {
         {
             throw new Exception("??????? ???????? ??????? ?????? ? ???????");
         }
-        IBaseObject obj = value.clone();
+        BaseObject obj = value.clone();
         vault.add(obj);
         return vault.indexOf(obj);
     }
 
-    public boolean isContains(IBaseObject obj)
+    public boolean isContains(BaseObject obj)
     {
         return vault.contains(obj);
     }
 
-    public int indexOf(IBaseObject value) {
+    public int indexOf(BaseObject value) {
         int index = -1;
         for (int i = 0; i < vault.size(); i++)
         {
@@ -50,7 +50,7 @@ public class Alphabet {
         vault.remove(index);
     }
 
-    public IBaseObject get(int index) {
+    public BaseObject get(int index) {
         return vault.get(index);
     }
 }

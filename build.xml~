@@ -121,6 +121,17 @@
     </target>
 
     <target name="ftp-publish" depends="jar-make">
+        <!--<ftp server="http://apertalab.no-ip.org/"-->
+             <!--userid=""-->
+             <!--password=""-->
+             <!--verbose="true"-->
+             <!--action="put"-->
+             <!--depends="true"-->
+             <!--remotedir="reps/${ant.project.name}/develop/">-->
+            <!--<fileset dir="${dist}">-->
+
+            <!--</fileset>-->
+        <!--</ftp>-->
         <ivy:publish resolver="ssh-serv"
                      pubrevision="1.0"
                      overwrite="true"

@@ -8,5 +8,5 @@ package main.Root;
  * To change this template use File | Settings | File Templates.
  */
 public interface IBin {
-    IBaseObject GetInstance();
+    BaseObject getInstance();
 }
