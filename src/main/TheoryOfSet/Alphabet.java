@@ -1,6 +1,6 @@
-package main.TheoryOfSet;
+package TheoryOfSet;
 
-import main.Root.BaseObject;
+import Root.BaseObject;
 
 import java.util.ArrayList;
 

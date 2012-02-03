@@ -1,8 +1,8 @@
 package test.Root.SimpleTypes;
 
 import junit.framework.TestCase;
-import main.Root.SimpleTypes.ValueChar;
-import main.Root.SimpleTypes.ValueInt;
+import Root.SimpleTypes.ValueChar;
+import Root.SimpleTypes.ValueInt;
 
 /**
  * Created by IntelliJ IDEA.

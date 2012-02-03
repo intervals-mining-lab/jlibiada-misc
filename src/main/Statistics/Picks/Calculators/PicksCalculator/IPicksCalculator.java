@@ -1,6 +1,6 @@
-package main.Statistics.Picks.Calculators.PicksCalculator;
+package Statistics.Picks.Calculators.PicksCalculator;
 
-import main.Statistics.Picks.Picks;
+import Statistics.Picks.Picks;
 
 /**
  * Created by IntelliJ IDEA.

@@ -1,7 +1,7 @@
-package main.Statistics.Picks;
+package Statistics.Picks;
 
-import main.Statistics.Picks.Calculators.PicksCalculator.IPicksCalculator;
-import main.Statistics.Picks.Calculators.ValueCalculator.IValueCalculator;
+import Statistics.Picks.Calculators.PicksCalculator.IPicksCalculator;
+import Statistics.Picks.Calculators.ValueCalculator.IValueCalculator;
 
 import java.util.ArrayList;
 import java.util.Iterator;

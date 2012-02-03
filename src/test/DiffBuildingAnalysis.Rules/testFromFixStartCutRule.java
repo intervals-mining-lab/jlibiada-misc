@@ -1,8 +1,8 @@
 package test.DiffBuildingAnalysis.Rules;
 
 import junit.framework.TestCase;
-import main.DiffBuildingAnalysis.Iterators.CutRuleIterator;
-import main.DiffBuildingAnalysis.Rules.FromFixStartCutRule;
+import DiffBuildingAnalysis.Iterators.CutRuleIterator;
+import DiffBuildingAnalysis.Rules.FromFixStartCutRule;
 
 /**
  * Created by IntelliJ IDEA.

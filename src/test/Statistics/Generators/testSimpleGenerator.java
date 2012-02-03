@@ -1,7 +1,7 @@
 package test.Statistics.Generators;
 
 import junit.framework.TestCase;
-import main.Statistics.Generators.SimpleGenerator;
+import Statistics.Generators.SimpleGenerator;
 
 /**
  * Created by IntelliJ IDEA.

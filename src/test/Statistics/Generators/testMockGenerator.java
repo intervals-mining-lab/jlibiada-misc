@@ -1,7 +1,7 @@
 package test.Statistics.Generators;
 
 import junit.framework.TestCase;
-import main.Statistics.Generators.MockGenerator;
+import Statistics.Generators.MockGenerator;
 
 /**
  * Created by IntelliJ IDEA.

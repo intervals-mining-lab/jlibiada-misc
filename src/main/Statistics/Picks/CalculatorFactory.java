@@ -1,11 +1,11 @@
-package main.Statistics.Picks;
+package Statistics.Picks;
 
-import main.Statistics.Picks.Calculators.PatternRecognition.BetweenPatternDistance;
-import main.Statistics.Picks.Calculators.PatternRecognition.ImageCompactDistance;
-import main.Statistics.Picks.Calculators.PatternRecognition.InterPatternDistance;
-import main.Statistics.Picks.Calculators.PicksCalculator.IPicksCalculator;
-import main.Statistics.Picks.Calculators.PicksCalculator.SamplingCalculator;
-import main.Statistics.Picks.Calculators.ValueCalculator.*;
+import Statistics.Picks.Calculators.PatternRecognition.BetweenPatternDistance;
+import Statistics.Picks.Calculators.PatternRecognition.ImageCompactDistance;
+import Statistics.Picks.Calculators.PatternRecognition.InterPatternDistance;
+import Statistics.Picks.Calculators.PicksCalculator.IPicksCalculator;
+import Statistics.Picks.Calculators.PicksCalculator.SamplingCalculator;
+import Statistics.Picks.Calculators.ValueCalculator.*;
 
 /**
  * Created by IntelliJ IDEA.

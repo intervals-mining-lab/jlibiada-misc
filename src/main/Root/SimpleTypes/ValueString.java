@@ -1,6 +1,6 @@
-package main.Root.SimpleTypes;
+package Root.SimpleTypes;
 
-import main.Root.BaseObject;
+import Root.BaseObject;
 
 /**
  * Created by IntelliJ IDEA.

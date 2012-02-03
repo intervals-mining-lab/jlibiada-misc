@@ -1,8 +1,8 @@
 package test.DiffBuildingAnalysis.Rules;
 
 import junit.framework.TestCase;
-import main.DiffBuildingAnalysis.DifCutter;
-import main.DiffBuildingAnalysis.Rules.FromFixStartCutRule;
+import DiffBuildingAnalysis.DifCutter;
+import DiffBuildingAnalysis.Rules.FromFixStartCutRule;
 
 import java.util.ArrayList;
 

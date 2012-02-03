@@ -1,7 +1,7 @@
 package test.Root.SimpleTypes;
 
 import junit.framework.TestCase;
-import main.Root.SimpleTypes.ValueChar;
+import Root.SimpleTypes.ValueChar;
 
 /**
  * Created by IntelliJ IDEA.

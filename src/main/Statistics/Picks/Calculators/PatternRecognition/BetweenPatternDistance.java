@@ -1,8 +1,8 @@
-package main.Statistics.Picks.Calculators.PatternRecognition;
+package Statistics.Picks.Calculators.PatternRecognition;
 
 
-import main.Statistics.Picks.Calculators.ValueCalculator.IValueCalculator;
-import main.Statistics.Picks.Picks;
+import Statistics.Picks.Calculators.ValueCalculator.IValueCalculator;
+import Statistics.Picks.Picks;
 
 /**
  * Created by IntelliJ IDEA.

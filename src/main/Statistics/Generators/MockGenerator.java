@@ -1,4 +1,4 @@
-package main.Statistics.Generators;
+package Statistics.Generators;
 
 /**
  * Created by IntelliJ IDEA.

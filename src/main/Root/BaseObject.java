@@ -1,4 +1,4 @@
-package main.Root;
+package Root;
 
 /**
  * Created by IntelliJ IDEA.

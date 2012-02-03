@@ -1,7 +1,7 @@
-package main.DiffBuildingAnalysis;
+package DiffBuildingAnalysis;
 
-import main.DiffBuildingAnalysis.Iterators.CutRuleIterator;
-import main.DiffBuildingAnalysis.Rules.CutRule;
+import DiffBuildingAnalysis.Iterators.CutRuleIterator;
+import DiffBuildingAnalysis.Rules.CutRule;
 
 import java.util.ArrayList;
 

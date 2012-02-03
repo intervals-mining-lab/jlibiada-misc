@@ -1,4 +1,4 @@
-package main.DiffBuildingAnalysis.Iterators;
+package DiffBuildingAnalysis.Iterators;
 
 import java.util.ArrayList;
 

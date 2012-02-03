@@ -1,13 +1,13 @@
 package test.Statistics.Picks;
 
 import junit.framework.TestCase;
-import main.Statistics.Picks.CalculatorFactory;
-import main.Statistics.Picks.Calculators.PatternRecognition.BetweenPatternDistance;
-import main.Statistics.Picks.Calculators.PatternRecognition.ImageCompactDistance;
-import main.Statistics.Picks.Calculators.PatternRecognition.InterPatternDistance;
-import main.Statistics.Picks.Calculators.PicksCalculator.SamplingCalculator;
-import main.Statistics.Picks.Calculators.ValueCalculator.*;
-import main.Statistics.Picks.Picks;
+import Statistics.Picks.CalculatorFactory;
+import Statistics.Picks.Calculators.PatternRecognition.BetweenPatternDistance;
+import Statistics.Picks.Calculators.PatternRecognition.ImageCompactDistance;
+import Statistics.Picks.Calculators.PatternRecognition.InterPatternDistance;
+import Statistics.Picks.Calculators.PicksCalculator.SamplingCalculator;
+import Statistics.Picks.Calculators.ValueCalculator.*;
+import Statistics.Picks.Picks;
 
 /**
  * Created by IntelliJ IDEA.

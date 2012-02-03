@@ -1,7 +1,7 @@
 package test.Statistics.Generators;
 
 import junit.framework.TestCase;
-import main.Statistics.Generators.ConstanteGenerator;
+import Statistics.Generators.ConstanteGenerator;
 
 /**
  * Created by IntelliJ IDEA.

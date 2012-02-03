@@ -1,7 +1,7 @@
 package test.Statistics.Picks;
 
 import junit.framework.TestCase;
-import main.Statistics.Picks.Picks;
+import Statistics.Picks.Picks;
 
 /**
  * Created by IntelliJ IDEA.

@@ -1,7 +1,7 @@
-package main.Statistics.Picks.Calculators.ValueCalculator;
+package Statistics.Picks.Calculators.ValueCalculator;
 
-import main.Statistics.Picks.CalculatorFactory;
-import main.Statistics.Picks.Picks;
+import Statistics.Picks.CalculatorFactory;
+import Statistics.Picks.Picks;
 
 /**
  * Created by IntelliJ IDEA.
